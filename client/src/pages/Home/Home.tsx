@@ -4,6 +4,8 @@ import Footer from "../../components/layout/Footer";
 import Features from "../../components/home/Features";
 import Services from "../../components/home/Services";
 import HowItWorks from "../../components/home/HowItWorks";
+import FeaturedLawyers from "../../components/home/FeaturedLawyers";
+import FAQ from "../../components/home/FAQ";
 
 const Home = () => {
   return (
@@ -13,6 +15,7 @@ const Home = () => {
       <Features/>
       <Services/>
       <HowItWorks/>
+      <FAQ />
       <Footer />
     </>
   );
